@@ -21,26 +21,24 @@ body {
 }
 
 .link-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.nav-page .logo-first-chank {
-  color: #4d5ae5;
+.nav-page .logo-chank {
+  color: #2e2f42;
 }
 
 .menu-nav .menu-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -49,8 +47,11 @@ body {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.address-header {
+  font-style: normal;
 }
