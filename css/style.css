@@ -12,12 +12,13 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 /* Header */
 
 .page-header {
-  background-color: #ffffff;
 }
 
 .link-logo {
