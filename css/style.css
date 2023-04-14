@@ -1,4 +1,5 @@
-root {
+:root {
+  --color-body: #434455;
   --bg-color-boody: #ffffff;
 }
 
@@ -12,17 +13,15 @@ root {
 
 body {
   font-family: "Roboto", sans-serif;
-  /* font-style: normal;
-  font-weight: 400; */
   line-height: 1.5;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--color-body);
+  background-color: var(--bg-color-boody);
 }
 
 /* Header */
 
 .page-header {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 .link-logo {
@@ -40,8 +39,8 @@ body {
 }
 
 .menu-nav .menu-link {
-  font-family: "Roboto";
-  font-style: normal;
+  /* font-family: "Roboto"; */
+  /* font-style: normal; */
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
