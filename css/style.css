@@ -1,9 +1,9 @@
 :root {
   --color-logo: #4d5ae5;
-
-  --color-logo-ch-head: #2e2f42;
   --color-logo-ch-foot: #f4f4fd;
+
   --color-text-head: #434455;
+  --color-text-sec: #2e2f42;
   --color-text-foot: #f4f4fd;
   --color-text-hover-focus: #404bbf;
 
@@ -22,12 +22,14 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-text-head);
   background-color: var(--bg-color-head);
 }
 
-/* Header */
+/***** Header *****/
 
 .page-header .menu-link:hover,
 .page-header .menu-link:focus {
@@ -36,7 +38,6 @@ body {
 
 .link-logo {
   font-family: "Raleway", sans-serif;
-  /* font-style: normal; */
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -46,24 +47,20 @@ body {
 }
 
 .nav-page .logo-chank {
-  color: var(--color-logo-ch-head);
+  color: var(--color-text-sec);
 }
 
 .menu-nav .menu-link {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.menu-address .menu-link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-text-sec);
 }
 
 .address-header {
   font-style: normal;
+}
+
+.menu-address .menu-link {
+  color: var(--color-text-head);
 }
 
 /* Footer */
