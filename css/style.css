@@ -1,3 +1,7 @@
+root {
+  --bg-color-boody: #ffffff;
+}
+
 .list {
   list-style: none;
 }
@@ -8,8 +12,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  /* font-style: normal;
+  font-weight: 400; */
   line-height: 1.5;
   /* color: #434455;
   background-color: #ffffff; */
@@ -44,9 +48,9 @@ body {
 }
 
 .menu-address .link-item {
-  font-family: "Roboto";
+  /* font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
