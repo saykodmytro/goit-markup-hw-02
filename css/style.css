@@ -1,6 +1,12 @@
 :root {
-  --color-body: #434455;
-  --bg-color-boody: #ffffff;
+  --color-logo: #4d5ae5;
+  --color-logo-ch-head: #2e2f42;
+  --color-logo-ch-foot: #f4f4fd;
+  --color-text-head: #434455;
+  --color-text-foot: #f4f4fd;
+
+  --bg-color-head: #ffffff;
+  --bg-sec-color: #2e2f42;
 }
 
 .list {
@@ -14,8 +20,8 @@
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  color: var(--color-body);
-  background-color: var(--bg-color-boody);
+  color: var(--bg-color-head);
+  background-color: var(--bg-color-head);
 }
 
 /* Header */
@@ -31,16 +37,14 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--color-logo);
 }
 
 .nav-page .logo-chank {
-  color: #2e2f42;
+  color: var(--color-logo-ch-head);
 }
 
 .menu-nav .menu-link {
-  /* font-family: "Roboto"; */
-  /* font-style: normal; */
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -48,9 +52,6 @@ body {
 }
 
 .menu-address .link-item {
-  /* font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -58,4 +59,18 @@ body {
 
 .address-header {
   font-style: normal;
+}
+
+/* Footer */
+.footer-page {
+  background-color: var(--bg-sec-color);
+}
+
+.description {
+  letter-spacing: 0.02em;
+  color: var(--color-text-foot);
+}
+
+.footer-page .logo-chank {
+  color: var(--color-logo-ch-foot);
 }
