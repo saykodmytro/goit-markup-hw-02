@@ -4,6 +4,7 @@
   --color-logo-ch-foot: #f4f4fd;
   --color-text-head: #434455;
   --color-text-foot: #f4f4fd;
+  --color-text-hover-focus: #404bbf;
 
   --bg-color-head: #ffffff;
   --bg-sec-color: #2e2f42;
@@ -28,6 +29,11 @@ body {
 
 .page-header {
   /* background-color: #ffffff; */
+}
+
+.menu-nav .menu-link:hover,
+.menu-nav .menu-link:focus {
+  color: var(--color-text-hover-focus);
 }
 
 .link-logo {
