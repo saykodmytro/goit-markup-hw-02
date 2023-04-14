@@ -1,5 +1,6 @@
 :root {
   --color-logo: #4d5ae5;
+
   --color-logo-ch-head: #2e2f42;
   --color-logo-ch-foot: #f4f4fd;
   --color-text-head: #434455;
@@ -7,7 +8,8 @@
   --color-text-hover-focus: #404bbf;
 
   --bg-color-head: #ffffff;
-  --bg-sec-color: #2e2f42;
+  --bg-color-sec: #2e2f42;
+  --bg-color-light: #f4f4fd;
 }
 
 .list {
@@ -26,10 +28,6 @@ body {
 }
 
 /* Header */
-
-.page-header {
-  /* background-color: #ffffff; */
-}
 
 .page-header .menu-link:hover,
 .page-header .menu-link:focus {
@@ -70,7 +68,7 @@ body {
 
 /* Footer */
 .footer-page {
-  background-color: var(--bg-sec-color);
+  background-color: var(--bg-color-sec);
 }
 
 .description {
