@@ -31,8 +31,8 @@ body {
   /* background-color: #ffffff; */
 }
 
-.menu-nav .menu-link:hover,
-.menu-nav .menu-link:focus {
+.page-header .menu-link:hover,
+.page-header .menu-link:focus {
   color: var(--color-text-hover-focus);
 }
 
@@ -58,7 +58,7 @@ body {
   color: #2e2f42;
 }
 
-.menu-address .link-item {
+.menu-address .menu-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
