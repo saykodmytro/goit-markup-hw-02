@@ -111,7 +111,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   color: var(--color-text-sec);
 }
 
@@ -123,7 +123,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   text-transform: capitalize;
   color: var(--color-text-sec);
 }
@@ -143,7 +143,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   text-transform: capitalize;
   color: var(--color-text-sec);
 }
@@ -153,13 +153,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   color: var(--color-text-sec);
 }
 
 .descr-our-team-img {
   text-align: center;
-  /* letter-spacing: 0.02em; */
   color: var(--color-text-head);
 }
 
@@ -182,7 +181,6 @@ body {
 /* ***** Hero-Portfolio ***** */
 .button-filter {
   font-family: inherit;
-  /* font-style: normal; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -201,15 +199,18 @@ body {
   background: var(--color-text-hover-focus);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  /* border-radius: 4px; */
 }
 
 .title-desc-portf {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   color: var(--color-text-sec);
+}
+
+.descr-portf {
+  color: var(--color-text-head);
 }
 
 /* ***** /Hero-Portfolio ***** */ ;
