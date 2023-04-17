@@ -129,6 +129,39 @@ body {
 }
 /* ***** /Our Work ***** */
 
+/* ***** Our Team ***** */
+
+.our-team {
+  background-color: var(--bg-color-light);
+}
+
+.title-our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-text-sec);
+}
+
+.title-descr-our-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-text-sec);
+}
+
+.descr-our-team-img {
+  text-align: center;
+  /* letter-spacing: 0.02em; */
+  color: var(--color-text-head);
+}
+
+/* ***** /Our Team ***** */
+
 /* Footer */
 .footer-page {
   background-color: var(--bg-color-sec);
