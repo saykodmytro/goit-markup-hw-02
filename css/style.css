@@ -1,15 +1,12 @@
 :root {
   --color-logo: #4d5ae5;
-  --color-logo-ch-foot: #f4f4fd;
 
   --color-text-head: #434455;
   --color-text-sec: #2e2f42;
-  --color-text-foot: #f4f4fd;
+  --color-white-light: #f4f4fd;
   --color-text-hover-focus: #404bbf;
 
   --bg-color-head: #ffffff;
-  --bg-color-sec: #2e2f42;
-  --bg-color-light: #f4f4fd;
 }
 
 .list {
@@ -66,7 +63,7 @@ body {
 /* ***** Hero ***** */
 
 .hero {
-  background-color: var(--bg-color-sec);
+  background-color: var(--color-text-sec);
 }
 
 .title-page {
@@ -136,7 +133,7 @@ body {
 }
 
 .our-team {
-  background-color: var(--bg-color-light);
+  background-color: var(--color-white-light);
 }
 
 .title-our-team {
@@ -167,16 +164,15 @@ body {
 
 /* Footer */
 .footer-page {
-  background-color: var(--bg-color-sec);
+  background-color: var(--color-text-sec);
 }
 
 .description {
-  /* letter-spacing: 0.02em; */
   color: var(--color-text-foot);
 }
 
 .footer-page .logo-chank {
-  color: var(--color-logo-ch-foot);
+  color: var(--color-white-light);
 }
 
 /* ***** Hero-Portfolio ***** */
@@ -191,7 +187,7 @@ body {
   color: var(--color-logo);
   cursor: pointer;
 
-  background-color: var(--bg-color-light);
+  background-color: var(--color-white-light);
 }
 
 .button-filter:hover,
