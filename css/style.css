@@ -130,6 +130,9 @@ body {
 /* ***** /Our Work ***** */
 
 /* ***** Our Team ***** */
+.menu-our-team {
+  background-color: var(--bg-color-head);
+}
 
 .our-team {
   background-color: var(--bg-color-light);
