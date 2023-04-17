@@ -73,10 +73,12 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--bg-color-head);
 }
 
 .button-title {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -84,6 +86,11 @@ body {
   color: var(--bg-color-head);
   background: var(--color-logo);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.button-title:hover,
+.button-title:focus {
+  background-color: var(--color-text-hover-focus);
 }
 
 /* Footer */
