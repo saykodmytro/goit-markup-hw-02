@@ -63,6 +63,29 @@ body {
   color: var(--color-text-head);
 }
 
+/* ***** Hero ***** */
+.hero {
+  background-color: var(--bg-color-sec);
+}
+
+.title-page {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--bg-color-head);
+}
+
+.button-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--bg-color-head);
+  background: var(--color-logo);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
 /* Footer */
 .footer-page {
   background-color: var(--bg-color-sec);
