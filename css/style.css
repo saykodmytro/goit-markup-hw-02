@@ -126,12 +126,13 @@ body {
 /* ***** /Our Work ***** */
 
 /* ***** Our Team ***** */
-.menu-item {
-  background-color: var(--bg-color-head);
-}
 
 .our-team {
   background-color: var(--color-white-light);
+}
+
+.menu-our-team .menu-item {
+  background-color: var(--bg-color-head);
 }
 
 .our-team .title {
@@ -155,6 +156,7 @@ body {
 
 .menu-our-team .description {
   text-align: center;
+  color: var(--color-text-head);
 }
 
 /* ***** /Our Team ***** */
