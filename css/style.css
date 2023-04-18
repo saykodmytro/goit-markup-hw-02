@@ -1,11 +1,9 @@
 :root {
   --color-logo: #4d5ae5;
-
   --color-text-head: #434455;
   --color-text-sec: #2e2f42;
   --color-white-light: #f4f4fd;
   --color-text-hover-focus: #404bbf;
-
   --bg-color-head: #ffffff;
 }
 
@@ -136,7 +134,7 @@ body {
   background-color: var(--color-white-light);
 }
 
-.title-our-team {
+.our-team .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -146,7 +144,7 @@ body {
   color: var(--color-text-sec);
 }
 
-.title-descr-our-team {
+.menu-our-team .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -155,9 +153,8 @@ body {
   color: var(--color-text-sec);
 }
 
-.descr-our-team-img {
+.menu-our-team .description {
   text-align: center;
-  color: var(--color-text-head);
 }
 
 /* ***** /Our Team ***** */
@@ -168,7 +165,7 @@ body {
 }
 
 .description {
-  color: var(--color-text-foot);
+  color: var(--color-white-light);
 }
 
 .footer-page .logo-chank {
@@ -176,6 +173,7 @@ body {
 }
 
 /* ***** Hero-Portfolio ***** */
+
 .button-filter {
   font-family: inherit;
   font-weight: 500;
@@ -186,7 +184,6 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-logo);
   cursor: pointer;
-
   background-color: var(--color-white-light);
 }
 
