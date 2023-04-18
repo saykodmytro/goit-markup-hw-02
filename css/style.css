@@ -84,25 +84,13 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-.button-title:hover,
-.button-title:focus {
+.button-order:hover,
+.button-order:focus {
   background-color: var(--color-text-hover-focus);
 }
 /* ***** /Hero ***** */
 
 /* ***** Skills ***** */
-/* .visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-} */
 
 .title-description {
   font-weight: 500;
