@@ -107,7 +107,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   color: var(--color-text-sec);
 }
 
@@ -156,7 +156,7 @@ body {
 
 .menu-our-team .description {
   text-align: center;
-  color: var(--color-text-head);
+  /* color: var(--color-text-head); */
 }
 
 /* ***** /Our Team ***** */
@@ -166,7 +166,7 @@ body {
   background-color: var(--color-text-sec);
 }
 
-.description {
+.footer-page .description {
   color: var(--color-white-light);
 }
 
