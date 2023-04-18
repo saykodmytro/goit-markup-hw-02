@@ -73,7 +73,7 @@ body {
   color: var(--bg-color-head);
 }
 
-.button-title {
+.button-order {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -91,7 +91,7 @@ body {
 /* ***** /Hero ***** */
 
 /* ***** Skills ***** */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -102,7 +102,7 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
 .title-description {
   font-weight: 500;
@@ -137,7 +137,7 @@ body {
 }
 
 .menu-our-team .description {
-  text-align: center;
+  /* text-align: center; */
   /* color: var(--color-text-head); */
 }
 
@@ -178,14 +178,6 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-/* .title-desc-portf {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--color-text-sec);
-} */
 
 .descr-portf {
   color: var(--color-text-head);
